@@ -9,6 +9,7 @@ body {
 	padding-bottom:30%;
 	float:left;
 	margin:1.66%;
+	border-radius:15px;
 
 }
 
@@ -21,6 +22,12 @@ h1 {
 	color:white;
 }
 
-span {
-	color:white;
+.line {
+	background-color:white;
+	height:30px;
+	text-align:center;
+}
+
+.selected {
+	background-color: blue;
 }
