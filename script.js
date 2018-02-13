@@ -102,7 +102,7 @@ function generateRandomColors(num){
 	//return array
 	return arr;
 }
-
+//generates random colors
 function randomColor(){
 	//pick  a red from 0 to 255
 	var r = Math.floor(Math.random() * 256)
