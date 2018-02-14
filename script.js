@@ -47,6 +47,10 @@ resetButton.addEventListener("click",function(){
 	pickedColor = pickColor();
 	//change color display so it resets too
 	colorDisplay.textContent = pickedColor;
+	//remove message after you press play again
+	messageDisplay.textContent = "";
+	//change button to "new colors" instead of it remaining play again after you win and play again
+	this.textContent = "New Colors";
 	//change the colors of the squares
 	for(var i= 0; i< squares.length;i++){
 		squares[i].style.background = colors[i];
